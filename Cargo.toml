@@ -1,0 +1,10 @@
+[package]
+name = "ecdsa-subkey"
+version = "0.1.0"
+edition = "2024"
+description = "Generate an AccountId20 key from string seed as used in substrate and frontier"
+
+[dependencies]
+fp-account = { git = "https://github.com/polkadot-evm/frontier.git", branch = "stable2412" }
+sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", default-features = false }
+sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", default-features = false }
